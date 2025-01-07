@@ -6,32 +6,27 @@ import java.util.List;
 
 public class Pit {
 
-    private int nPitTeams;
-
     public Pit(int nPitTeams) {
-        this.nPitTeams = nPitTeams;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public void submitCar(Car car) {
-        //TODO
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public Car getCar() {
-        //TODO
-        return null;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public int getPitStopsCount() {
-        //TODO
-        return 0;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public List<PitTeam> getPitTeams() {
-        //TODO
-        return null;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public void finishRace() {
-        //TODO
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 }

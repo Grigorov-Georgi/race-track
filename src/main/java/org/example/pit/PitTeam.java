@@ -2,21 +2,16 @@ package org.example.pit;
 
 public class PitTeam extends Thread {
 
-    private int id;
-    private Pit pitStop;
-
     public PitTeam(int id, Pit pitStop) {
-        this.id = id;
-        this.pitStop = pitStop;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     @Override
     public void run() {
-        //TODO
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 
     public int getPitStoppedCars() {
-        //TODO
-        return 0;
+        throw new UnsupportedOperationException("Method not yet implemented");
     }
 }
